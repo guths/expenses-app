@@ -5,10 +5,21 @@ $dark-low: #666;
 $light-low: #999;
 $light-medium: #ddd;
 $lighter: #ddd;
-$light: #fff;
+$light: #fff ;
 
 $featured: #ff9900;
-$featured-dark: #d68109
+$featured-dark: #d68109;
 
+:root{
+  --dark: #{$dark};
+  --dark-medium:  #{$dark-medium};
+  --dark-low: #{$dark-low};
+  --light-low: #{$light-low};
+  --lighter: #{$lighter};
+  --light-medium: #{$light-medium};
+  --light: #{$light};
 
+  --featured: #{$featured};
+  --featured-dark: #{$featured-dark};
+}
 
