@@ -17,7 +17,7 @@ export default {
       this.$root.$emit('Spinner::show')
     }
   },
-  mounted() {
+  mounted () {
     console.log(this.$firebase)
   }
 }
